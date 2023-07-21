@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="icon_name_back">Back Icon</string>
+    <string name="icon_name_quality">Quality Icon</string>
+    <string name="icon_name_speed">Speed Icon</string>
+    <string name="icon_name_previous">Previous Button</string>
+    <string name="icon_name_next">Next Button</string>
+    <string name="icon_name_play">Play Button</string>
+    <string name="text_slash">/</string>
+    <string name="icon_name_reply">Reply Button</string>
+    <string name="info_skip_10_sec">Double tap left or right to skip 10 seconds</string>
+    <string name="icon_name_settings">Settings Icon</string>
+</resources>

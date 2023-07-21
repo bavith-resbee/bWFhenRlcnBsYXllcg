@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00CBE4726AB22C100479097 /* PlayerResourceLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00CBE4626AB22C100479097 /* PlayerResourceLoaderDelegate.swift */; };
+		F00CBE6E26AC71C200479097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00CBE6D26AC71C200479097 /* ViewController.swift */; };
+		F00D075626C1875D00D4E823 /* MaazterDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D075426C1875D00D4E823 /* MaazterDownloader.swift */; };
+		F00D075726C1875D00D4E823 /* MaazterDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F00D075526C1875D00D4E823 /* MaazterDownloader.m */; };
+		F04FA7E126BF028600D85349 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FA7DE26BF028600D85349 /* UIImageView.swift */; };
+		F04FA7E226BF028600D85349 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FA7DF26BF028600D85349 /* UISlider.swift */; };
+		F04FA7E326BF028600D85349 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FA7E026BF028600D85349 /* AVPlayer.swift */; };
+		F04FA7E726BF02D100D85349 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FA7E526BF02D100D85349 /* SpinnerView.swift */; };
+		F04FA7E826BF02D100D85349 /* SkipOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FA7E626BF02D100D85349 /* SkipOverlay.swift */; };
+		F04FA7ED26BF032000D85349 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FA7EC26BF032000D85349 /* Slider.swift */; };
+		F04FA7F026BF038400D85349 /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FA7EF26BF038400D85349 /* RippleButton.swift */; };
+		F05B1D5326B13751001CC626 /* PlayPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B1D5226B13751001CC626 /* PlayPauseButton.swift */; };
+		F05B1D7C26B1450B001CC626 /* PlayerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B1D7B26B1450A001CC626 /* PlayerListener.swift */; };
+		F05B1D7F26B145EE001CC626 /* PlayerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B1D7E26B145EE001CC626 /* PlayerEvent.swift */; };
+		F05B1E7426B85401001CC626 /* SetOnClickListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B1E7226B85401001CC626 /* SetOnClickListener.swift */; };
+		F05B1E7526B85401001CC626 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B1E7326B85401001CC626 /* UIColor.swift */; };
+		F062EB0126C171AF00EB59AA /* MaazterDownloaderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F062EB0026C171AF00EB59AA /* MaazterDownloaderModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libMaazterPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMaazterPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D403F87529888559176B41F6 /* PlayerControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayerControl.storyboard; sourceTree = "<group>"; };
+		F00CBE1C26AAF34B00479097 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		F00CBE1F26AAF34B00479097 /* MaazterPlayerViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaazterPlayerViewManager.m; sourceTree = "<group>"; };
+		F00CBE2026AAF34B00479097 /* MaazterPlayerViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaazterPlayerViewManager.swift; sourceTree = "<group>"; };
+		F00CBE4626AB22C100479097 /* PlayerResourceLoaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerResourceLoaderDelegate.swift; sourceTree = "<group>"; };
+		F00CBE6D26AC71C200479097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F00D075426C1875D00D4E823 /* MaazterDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaazterDownloader.swift; sourceTree = "<group>"; };
+		F00D075526C1875D00D4E823 /* MaazterDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaazterDownloader.m; sourceTree = "<group>"; };
+		F04FA7DE26BF028600D85349 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		F04FA7DF26BF028600D85349 /* UISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISlider.swift; sourceTree = "<group>"; };
+		F04FA7E026BF028600D85349 /* AVPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		F04FA7E526BF02D100D85349 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		F04FA7E626BF02D100D85349 /* SkipOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipOverlay.swift; sourceTree = "<group>"; };
+		F04FA7EC26BF032000D85349 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		F04FA7EF26BF038400D85349 /* RippleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleButton.swift; sourceTree = "<group>"; };
+		F05B1D5226B13751001CC626 /* PlayPauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseButton.swift; sourceTree = "<group>"; };
+		F05B1D7B26B1450A001CC626 /* PlayerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListener.swift; sourceTree = "<group>"; };
+		F05B1D7E26B145EE001CC626 /* PlayerEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEvent.swift; sourceTree = "<group>"; };
+		F05B1E7226B85401001CC626 /* SetOnClickListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetOnClickListener.swift; sourceTree = "<group>"; };
+		F05B1E7326B85401001CC626 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F062EB0026C171AF00EB59AA /* MaazterDownloaderModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaazterDownloaderModule.m; sourceTree = "<group>"; };
+		F4FF95D5245B92E700C19C63 /* MaazterPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaazterPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libMaazterPlayer.a */,
+				D403F87529888559176B41F6 /* PlayerControl.storyboard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				F062EAFC26C1709500EB59AA /* downloader */,
+				F04FA7EB26BF02E900D85349 /* views */,
+				F05B1D7A26B144D5001CC626 /* event */,
+				F05B1E7126B7E449001CC626 /* extension */,
+				F00CBE6D26AC71C200479097 /* ViewController.swift */,
+				F062EB0026C171AF00EB59AA /* MaazterDownloaderModule.m */,
+				F00CBE4626AB22C100479097 /* PlayerResourceLoaderDelegate.swift */,
+				F00CBE1F26AAF34B00479097 /* MaazterPlayerViewManager.m */,
+				F00CBE2026AAF34B00479097 /* MaazterPlayerViewManager.swift */,
+				F00CBE1C26AAF34B00479097 /* PlayerView.swift */,
+				F4FF95D5245B92E700C19C63 /* MaazterPlayer-Bridging-Header.h */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04FA7EB26BF02E900D85349 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F04FA7E626BF02D100D85349 /* SkipOverlay.swift */,
+				F04FA7E526BF02D100D85349 /* SpinnerView.swift */,
+				F05B1D5226B13751001CC626 /* PlayPauseButton.swift */,
+				F04FA7EC26BF032000D85349 /* Slider.swift */,
+				F04FA7EF26BF038400D85349 /* RippleButton.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F05B1D7A26B144D5001CC626 /* event */ = {
+			isa = PBXGroup;
+			children = (
+				F05B1D7B26B1450A001CC626 /* PlayerListener.swift */,
+				F05B1D7E26B145EE001CC626 /* PlayerEvent.swift */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+		F05B1E7126B7E449001CC626 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				F04FA7E026BF028600D85349 /* AVPlayer.swift */,
+				F04FA7DE26BF028600D85349 /* UIImageView.swift */,
+				F04FA7DF26BF028600D85349 /* UISlider.swift */,
+				F05B1E7226B85401001CC626 /* SetOnClickListener.swift */,
+				F05B1E7326B85401001CC626 /* UIColor.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		F062EAFC26C1709500EB59AA /* downloader */ = {
+			isa = PBXGroup;
+			children = (
+				F00D075526C1875D00D4E823 /* MaazterDownloader.m */,
+				F00D075426C1875D00D4E823 /* MaazterDownloader.swift */,
+			);
+			path = downloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* MaazterPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "MaazterPlayer" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaazterPlayer;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libMaazterPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "MaazterPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* MaazterPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04FA7E226BF028600D85349 /* UISlider.swift in Sources */,
+				F05B1E7426B85401001CC626 /* SetOnClickListener.swift in Sources */,
+				F00D075626C1875D00D4E823 /* MaazterDownloader.swift in Sources */,
+				F04FA7E126BF028600D85349 /* UIImageView.swift in Sources */,
+				F00CBE6E26AC71C200479097 /* ViewController.swift in Sources */,
+				F00CBE4726AB22C100479097 /* PlayerResourceLoaderDelegate.swift in Sources */,
+				F05B1E7526B85401001CC626 /* UIColor.swift in Sources */,
+				F05B1D5326B13751001CC626 /* PlayPauseButton.swift in Sources */,
+				F04FA7E326BF028600D85349 /* AVPlayer.swift in Sources */,
+				F05B1D7F26B145EE001CC626 /* PlayerEvent.swift in Sources */,
+				F04FA7E826BF02D100D85349 /* SkipOverlay.swift in Sources */,
+				F04FA7E726BF02D100D85349 /* SpinnerView.swift in Sources */,
+				F05B1D7C26B1450B001CC626 /* PlayerListener.swift in Sources */,
+				F062EB0126C171AF00EB59AA /* MaazterDownloaderModule.m in Sources */,
+				F00D075726C1875D00D4E823 /* MaazterDownloader.m in Sources */,
+				F04FA7ED26BF032000D85349 /* Slider.swift in Sources */,
+				F04FA7F026BF038400D85349 /* RippleButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MaazterPlayer;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MaazterPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MaazterPlayer;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MaazterPlayer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "MaazterPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "MaazterPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

@@ -1,0 +1,40 @@
+import { ViewStyle } from 'react-native';
+declare type MaazterPlayerProps = {
+    theme: string;
+    buttonState: string;
+    source: object;
+    resizeMode: string;
+    onCreate: () => void;
+    onDestroy: () => void;
+    onFullscreenChange: () => void;
+    onPlayStateChange: () => void;
+    onQualityChange: () => void;
+    onPlaybackSpeedChange: () => void;
+    onVideoSizeChange: () => void;
+    onProgress: () => void;
+    onBackClick: () => void;
+    onPreviousClick: () => void;
+    onNextClick: () => void;
+    onSettingsClick: () => void;
+    onError: () => void;
+    style: ViewStyle;
+    markers: object;
+    playFrom: () => void;
+};
+declare function callFunction(ref: any, func: string, args?: any[]): void;
+interface DownloaderInterface {
+    add(contentId: string, contentUri: string, encKey: string | null, quality: object, data: string | null): Promise<any>;
+    remove(contentId: string): Promise<any>;
+    pause(contentId: string, reason?: number): Promise<any>;
+    resume(contentId: string): Promise<any>;
+    pauseAll(): Promise<any>;
+    resumeAll(): Promise<any>;
+    listDownloads(): Promise<any>;
+    getTracks(urlPath: string, encKey: string | null): Promise<any>;
+    addListener(name: string, callback: Function): any;
+    removeListener(name: string, callback: Function): any;
+}
+declare const PlayerView: import("react-native").HostComponent<MaazterPlayerProps>;
+declare const Downloader: DownloaderInterface;
+export default PlayerView;
+export { Downloader, PlayerView, callFunction };

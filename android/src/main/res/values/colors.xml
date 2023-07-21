@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="bufferedColor">#77ffffff</color>
+  <color name="unPlayedColor">#22ffffff</color>
+  <color name="controlsOverlayColor">#66000000</color>
+</resources>

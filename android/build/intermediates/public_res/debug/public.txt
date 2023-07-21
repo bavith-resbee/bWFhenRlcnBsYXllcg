@@ -1,0 +1,10 @@
+attr DoubleTapPlayerView_dtpv_controller
+attr YouTubeOverlay_yt_animationDuration
+attr YouTubeOverlay_yt_arcSize
+attr YouTubeOverlay_yt_backgroundCircleColor
+attr YouTubeOverlay_yt_icon
+attr YouTubeOverlay_yt_iconAnimationDuration
+attr YouTubeOverlay_yt_playerView
+attr YouTubeOverlay_yt_seekSeconds
+attr YouTubeOverlay_yt_tapCircleColor
+attr YouTubeOverlay_yt_textAppearance

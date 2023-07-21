@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bufferedColor">#77ffffff</color>
+    <color name="controlsOverlayColor">#66000000</color>
+    <color name="dtpv_yt_background_circle_color">#20EEEEEE</color>
+    <color name="dtpv_yt_tap_circle_color">#18FFFFFF</color>
+    <color name="unPlayedColor">#22ffffff</color>
+    <dimen name="controlsBottomMarginFullscreen">32dp</dimen>
+    <dimen name="controlsBottomMarginNormal">14dp</dimen>
+    <dimen name="dtpv_yt_arc_size">40dp</dimen>
+    <dimen name="playerBottomAdjustment">10dp</dimen>
+    <dimen name="playerSeekbarAdjustment">-12dp</dimen>
+    <dimen name="playerUiBottomAdjustment">4dp</dimen>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+        <item quantity="many">%d seconds</item>
+    </plurals>
+    <string name="app_name">Test</string>
+    <string name="icon_name_back">Back Icon</string>
+    <string name="icon_name_next">Next Button</string>
+    <string name="icon_name_play">Play Button</string>
+    <string name="icon_name_previous">Previous Button</string>
+    <string name="icon_name_quality">Quality Icon</string>
+    <string name="icon_name_reply">Reply Button</string>
+    <string name="icon_name_settings">Settings Icon</string>
+    <string name="icon_name_speed">Speed Icon</string>
+    <string name="info_skip_10_sec">Double tap left or right to skip 10 seconds</string>
+    <string name="text_slash">/</string>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="android:textColor">#000000</item>
+  </style>
+    <style name="PlayerIcon" parent="Widget.AppCompat.ImageButton">
+    <item name="android:layout_width">30dp</item>
+    <item name="android:layout_height">30dp</item>
+    <item name="android:layout_gravity">center_vertical|end</item>
+    <item name="colorControlHighlight">@android:color/white</item>
+    <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    <item name="android:clickable">true</item>
+    <item name="android:focusable">true</item>
+    <item name="android:theme">@style/RippleTheme</item>
+  </style>
+    <style name="PlayerTimestamp" parent="Widget.AppCompat.TextView">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:paddingLeft">4dp</item>
+    <item name="android:paddingRight">4dp</item>
+    <item name="android:includeFontPadding">false</item>
+    <item name="android:layout_gravity">start</item>
+    <item name="android:textColor">#FFBEBEBE</item>
+  </style>
+    <style name="RippleTheme">
+    <item name="colorControlHighlight">#40ffffff</item>
+  </style>
+    <style name="YTOSecondsTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <declare-styleable name="DoubleTapPlayerView">
+        <attr format="reference" name="dtpv_controller"/>
+    </declare-styleable>
+    <declare-styleable name="YouTubeOverlay">
+        <attr format="reference" name="yt_playerView"/>
+        <attr format="integer" name="yt_seekSeconds"/>
+        <attr format="integer" name="yt_animationDuration"/>
+        <attr format="integer" name="yt_iconAnimationDuration"/>
+        <attr format="dimension" name="yt_arcSize"/>
+        <attr format="color" name="yt_tapCircleColor"/>
+        <attr format="color" name="yt_backgroundCircleColor"/>
+
+        <attr format="reference" name="yt_textAppearance"/>
+        <attr format="reference" name="yt_icon"/>
+    </declare-styleable>
+</resources>

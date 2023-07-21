@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="playerUiBottomAdjustment">4dp</dimen>
+  <dimen name="playerSeekbarAdjustment">-12dp</dimen>
+  <dimen name="playerBottomAdjustment">10dp</dimen>
+  <dimen name="controlsBottomMarginNormal">14dp</dimen>
+  <dimen name="controlsBottomMarginFullscreen">32dp</dimen>
+</resources>
